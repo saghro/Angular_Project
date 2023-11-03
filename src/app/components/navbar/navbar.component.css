@@ -1,13 +1,16 @@
+
+
 .menu-3{
     display: flex;
     margin: 20px 600px;
-    margin-top:-60px ;
+    margin-top:-50px ;
     list-style: none;
+
   }
   
   .menu-3 li {
-    width: 105px;
-    height: 50px;
+    width: 100px;
+    height: 60px;
     transition: background-position-x 0.6s linear;
     text-align: center;
   }
@@ -19,10 +22,10 @@
   }
 
   .menu-3 li:hover a {
-    color: #d94f5c;
+    background-color: #d94f5c;
   }
   .menu-3 li:not(:last-child) {
-    margin-right: 30px;
+    margin-right: 60px;
   }
   
   @-webkit-keyframes line {
@@ -49,23 +52,5 @@
     animation: line 1s;
   }
   
-  .custom-btn:hover a {
-    color: #d94f5c;
-  }
-  
-  .custom-btn:not(:last-child) {
-    margin-right: 30px;
-  }
-  
-  @-webkit-keyframes line {
-    0% {
-      background-position-x: 390px;
-    }
-  }
-  
-  @keyframes line {
-    0% {
-      background-position-x: 390px;
-    }
-  }
+
   
