@@ -52,5 +52,23 @@
     animation: line 1s;
   }
   
-
+  .custom-btn:hover a {
+    background-color: #d94f5c;
+  }
+  
+  .custom-btn:not(:last-child) {
+    margin-right: 30px;
+  }
+  
+  @-webkit-keyframes line {
+    0% {
+      background-position-x: 390px;
+    }
+  }
+  
+  @keyframes line {
+    0% {
+      background-position-x: 390px;
+    }
+  }
   
